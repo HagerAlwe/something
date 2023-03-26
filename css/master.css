@@ -1,0 +1,676 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header .logo {
+    height: 60px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 900;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.header .logo .logo-1 a {
+    font-size: 20px;
+    color: #000;
+    text-transform:uppercase ;
+    
+}
+
+.header .logo .logo-2 a{
+    color: #000;
+    padding: 20px;
+    text-transform:uppercase ;
+
+}
+
+.section-1 {
+    background-image: url(../img/mac.jpg);
+    background-size: cover;
+}
+
+.section-1 .long .long-1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.section-1 .long .long-1 h1 {
+    font-size: 50px;
+    
+}
+
+.section-1 .long .long-1 p {
+    padding-top: 40px;
+    font-size: 18px;
+
+}
+
+
+.section-1 .long .long-1 .bta {
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    background-color:rgba(255, 255, 255, 0.547);
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.section-1 .long .long-1 .bta:hover {
+    background-color:rgb(255, 255, 255);
+
+}
+.section-1 .long .long-2 {
+    margin-left: 10%;
+}
+.section-1 .long .long-2 a img {
+   background-color:white;
+   margin-left: 10px;
+   margin-bottom: 15px;
+
+}
+
+
+.section-2 {
+    padding: 15%;
+    width: 100%;
+}
+
+.section-2 .main {
+    color: #000;
+    text-align: center;
+}
+
+.section-2 .main p {
+    padding-top: 20px;
+}
+
+.section-2 .main-1{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-2 .main-1 .not-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+} 
+.section-2 .main-1 .not-1 i {
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+.section-2 .main-1 .not-1 h4 {
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.section-2 .main-1 .not-1 p {
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.section-3 {
+    background-color: #eee;
+}
+
+
+.section-3 .lokd {
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+}
+.section-3 .lokd .lok-1 {
+    padding: 15px;
+}
+.section-3 .lokd .lok-1 h2{
+    padding-bottom: 10px;
+}
+
+.section-3 .lokd .lok-1 p {
+    max-width: 400px;
+    margin-bottom: 10%;
+}
+
+.section-3 .lokd .lok-1 .bta {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    font-size: 19px;
+}
+
+
+.section-3 .lokd .lok-1 .bta:hover {
+    color:  rgb(0, 0, 0);
+    background-color: #847d7d;
+}
+
+
+.section-3 .lokd .lok-2 a img {
+    width: 90%;
+}
+
+
+
+.section-4 {
+    padding-top: 5%;
+}
+
+.section-4 .may {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.section-4 .may p {
+    padding-top: 10px;
+}
+
+
+
+
+.section-4 .cards {
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.section-4 .cards .card-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    padding:20px;
+    box-shadow: 1px 1px 5px black;
+    background-color: rgb(255, 255, 255);
+
+}
+.section-4 .cards .card-1 img {
+    width: 100%;
+}
+
+.section-4 .cards .card-1 img {
+    filter: grayscale();
+}
+
+.section-4 .cards .card-1 img:hover {
+    filter: grayscale(0);
+}
+
+.section-4 .cards .card-1 h3 {
+    color: #000000ac;
+    padding-top:10px ;
+}
+
+.section-4 .cards .card-1 p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.section-4 .cards .card-1 .bta {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.599);
+    text-align: center;
+    padding: 10px;
+}
+
+.section-4 .cards .card-1 .bta:hover {
+    background-color: #000;
+}
+
+
+.section-5 {
+    margin-top: 5%;
+    background-color: #616161;
+}
+
+
+
+
+
+.section-5 .butt {
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+
+
+
+.section-5 .butt .butt-1 {
+    color: white;
+}
+
+.section-5 .butt .butt-1 span {
+    font-size: 25px;
+
+}
+
+
+.section-6 {
+    padding-top: 5%;
+}
+
+.section-6 .mat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-6 .mat p {
+    padding-top: 10px;
+}
+
+
+.section-6 .mat-1 {
+    padding: 20px;
+}
+
+
+.section-6 .mat-1 a img {
+    filter: blur(1px);
+}
+
+.section-6 .mat-1 a img:hover{
+    filter: blur();
+}
+
+
+
+
+
+.section-7{
+    margin-top: 5%;
+    background-color: #847d7d;
+}
+
+.section-7 .lat  {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.section-7 .lat p {
+    padding: 15px;
+
+}
+
+.section-7 .look-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-7 .look-1 .lat-1 {
+    margin:15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.section-7 .look-1 .lat-1 ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 38px;
+    width: 100%;
+    background-color: #fffdfd;
+}
+
+
+.section-7 .look-1 .lat-1 ul .Bas {
+    background-color: #000;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+}
+
+
+.section-7 .look-1 .lat-1 ul li {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.section-7 .look-1 .lat-1 ul .btn {
+    padding: 15px; 
+    font-size: 18px;   
+    margin: 20px;
+    background-color: #000;
+    color: white;
+}
+
+.section-7 .look-1 .lat-1 ul .btn:hover {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.section-7 .look-1 .lat-1 ul .Bass {
+    background-color: #f44336;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+}
+
+
+.section-8 {
+    padding: 10%;
+    background-color: #eee;
+}
+
+.section-8 .cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-8 .cont p {
+    padding-top: 10px;
+}
+
+
+
+
+
+.section-8 .cont-cont .minn-1 {
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+
+.section-8 .cont-cont .minn-1  i {
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.section-8 .cont-cont .minn-1  span{
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+
+.section-8 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section-8 form input {
+    width: 100%;
+    padding: 20px;
+    margin: 5px;
+    outline: none;
+}
+
+
+
+.section-8 form .submit {
+    
+    width: 30%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.section-8 form .submit:hover {
+    background-color:  #fff;
+    color: #000;
+}
+
+.section-9 .imges {
+    margin: 15px;
+    filter: grayscale(75%);
+}
+
+.section-9 .imges img {
+    width: 100%;
+}
+
+
+
+
+.section-10 .footer {
+    background-color: #000;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+.section-10 .footer .btn {
+    padding: 15px; 
+    font-size: 18px;   
+    margin: 20px;
+    color: #000;
+    width: 20%;
+
+    background-color: #fff;
+}
+
+.section-10 .footer .btn:hover {
+    background-color: #000;
+    color: white;
+
+}
+
+.section-10 .footer .icons a i{
+    padding: 5px;
+    color: #fff;
+}
+
+
+
+
+
+@media (min-width:250px) and (max-width:1200px) {
+    .logo-2 {
+       font-size: 7px;
+
+    }
+
+.header .logo {
+    height: 60px;
+    width: 100%;}
+
+
+    .section-1 {
+    width: 100%;
+}
+
+
+.section-1 .long .long-1 h1 {
+    font-size: 23px;
+    margin-top: 40%;
+    text-align: center;
+}
+
+
+
+.section-1 .long .long-1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.section-1 .long .long-1 .bta {
+    width: 73%;
+    padding: 10px;
+    font-size: 8px;
+}
+
+.section-1 .long .long-2 {
+    text-align: center;
+}
+.section-1 .long .long-2 a img {
+    width: 12%;
+}
+
+
+.section-2 .main {
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+    margin: inherit;
+}
+.section-2 .main-1 {
+    flex-direction: column;
+    width: 100%;
+}
+.section-3 .lokd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10%;
+    flex-direction: column;
+    width: 100%;
+}
+.section-3 {
+    width: 100%;
+}
+
+.section-3 .lokd .lok-1 h2 {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.section-4 .may {
+    width: 100%;
+    text-align: center;
+}
+
+.section-4 .cards {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.lok-2 {
+    margin-top: 15px;
+}
+.section-5 .butt {
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.section-5 {
+    width: 100%;
+}
+
+
+.section-6 .mat {
+    width: 100%;
+    text-align: center;
+}
+
+.section-6 .mat-1 a img {
+    filter: none;
+    width: 100%;
+}
+
+.section-6 .mat-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.section-7 {
+    width: 100%;
+}
+
+.section-7 .look-1 .lat-1 {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.section-7 .look-1 {
+    width: 100%;
+}
+
+.section-7 .look-1 .lat-1 ul {
+    margin: 5px;
+}
+
+.section-8 {
+    width: 100%;
+}
+
+.section-8 .cont-cont .minn-1 span {
+    font-size: 10px;
+    padding: 11px;
+    padding-left: 0px;
+    width: 8%;
+}
+
+.section-8 form input {
+    margin: 10px;
+    padding: 10px;
+}
+.section-8 form .submit {
+    width: 100%;
+}
+
+.section-9 .imges img {
+    width: 100%;
+}
+
+.section-10 .footer {
+    width: 100%;
+}
+}
